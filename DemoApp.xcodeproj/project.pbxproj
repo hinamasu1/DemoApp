@@ -14,6 +14,7 @@
 		112764DE22CEB2430012CE3F /* CompetitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764DD22CEB2430012CE3F /* CompetitorViewController.swift */; };
 		112764E022CEB33E0012CE3F /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764DF22CEB33E0012CE3F /* RouteViewController.swift */; };
 		11A9A1E8232CBFEE005C72BF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A1E7232CBFED005C72BF /* SearchViewController.swift */; };
+		11A9A1EC232CD5B5005C72BF /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A1EB232CD5B5005C72BF /* SearchResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		112764DD22CEB2430012CE3F /* CompetitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitorViewController.swift; sourceTree = "<group>"; };
 		112764DF22CEB33E0012CE3F /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 		11A9A1E7232CBFED005C72BF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		11A9A1EB232CD5B5005C72BF /* SearchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		11A9A1E6232CBFED005C72BF /* SearchViewController */ = {
 			isa = PBXGroup;
 			children = (
+				11A9A1EB232CD5B5005C72BF /* SearchResultViewController.swift */,
 				11A9A1E7232CBFED005C72BF /* SearchViewController.swift */,
 			);
 			path = SearchViewController;
@@ -167,6 +170,7 @@
 			files = (
 				112764CA22CEA2130012CE3F /* AppDelegate.swift in Sources */,
 				112764DE22CEB2430012CE3F /* CompetitorViewController.swift in Sources */,
+				11A9A1EC232CD5B5005C72BF /* SearchResultViewController.swift in Sources */,
 				112764E022CEB33E0012CE3F /* RouteViewController.swift in Sources */,
 				11A9A1E8232CBFEE005C72BF /* SearchViewController.swift in Sources */,
 			);
