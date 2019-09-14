@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		112764CA22CEA2130012CE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764C922CEA2130012CE3F /* AppDelegate.swift */; };
-		112764CC22CEA2130012CE3F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764CB22CEA2130012CE3F /* FirstViewController.swift */; };
-		112764CE22CEA2130012CE3F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764CD22CEA2130012CE3F /* SecondViewController.swift */; };
 		112764D122CEA2130012CE3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112764CF22CEA2130012CE3F /* Main.storyboard */; };
 		112764D322CEA2180012CE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112764D222CEA2180012CE3F /* Assets.xcassets */; };
 		112764D622CEA2180012CE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112764D422CEA2180012CE3F /* LaunchScreen.storyboard */; };
+		112764DE22CEB2430012CE3F /* CompetitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764DD22CEB2430012CE3F /* CompetitorViewController.swift */; };
+		112764E022CEB33E0012CE3F /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112764DF22CEB33E0012CE3F /* RouteViewController.swift */; };
+		11A9A1E8232CBFEE005C72BF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A1E7232CBFED005C72BF /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		112764C622CEA2130012CE3F /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112764C922CEA2130012CE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		112764CB22CEA2130012CE3F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		112764CD22CEA2130012CE3F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		112764D022CEA2130012CE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		112764D222CEA2180012CE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112764D522CEA2180012CE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112764D722CEA2180012CE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112764DD22CEB2430012CE3F /* CompetitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitorViewController.swift; sourceTree = "<group>"; };
+		112764DF22CEB33E0012CE3F /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		11A9A1E7232CBFED005C72BF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		112764C822CEA2130012CE3F /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				11A9A1EA232CC281005C72BF /* CompetitorViewController */,
+				11A9A1E9232CC201005C72BF /* RouteViewController */,
+				11A9A1E6232CBFED005C72BF /* SearchViewController */,
 				112764C922CEA2130012CE3F /* AppDelegate.swift */,
-				112764CB22CEA2130012CE3F /* FirstViewController.swift */,
-				112764CD22CEA2130012CE3F /* SecondViewController.swift */,
 				112764CF22CEA2130012CE3F /* Main.storyboard */,
 				112764D222CEA2180012CE3F /* Assets.xcassets */,
 				112764D422CEA2180012CE3F /* LaunchScreen.storyboard */,
 				112764D722CEA2180012CE3F /* Info.plist */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		11A9A1E6232CBFED005C72BF /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11A9A1E7232CBFED005C72BF /* SearchViewController.swift */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		11A9A1E9232CC201005C72BF /* RouteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				112764DF22CEB33E0012CE3F /* RouteViewController.swift */,
+			);
+			path = RouteViewController;
+			sourceTree = "<group>";
+		};
+		11A9A1EA232CC281005C72BF /* CompetitorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				112764DD22CEB2430012CE3F /* CompetitorViewController.swift */,
+			);
+			path = CompetitorViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112764CE22CEA2130012CE3F /* SecondViewController.swift in Sources */,
 				112764CA22CEA2130012CE3F /* AppDelegate.swift in Sources */,
-				112764CC22CEA2130012CE3F /* FirstViewController.swift in Sources */,
+				112764DE22CEB2430012CE3F /* CompetitorViewController.swift in Sources */,
+				112764E022CEB33E0012CE3F /* RouteViewController.swift in Sources */,
+				11A9A1E8232CBFEE005C72BF /* SearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.hinamasu1.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
